@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */; };
+		B517AA502929B843006D6579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4F2929B843006D6579 /* ContentView.swift */; };
+		B517AA522929B844006D6579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA512929B844006D6579 /* Assets.xcassets */; };
+		B517AA562929B844006D6579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA552929B844006D6579 /* Preview Assets.xcassets */; };
+		B517AA602929B844006D6579 /* OpusAeriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA5F2929B844006D6579 /* OpusAeriesTests.swift */; };
+		B517AA6A2929B844006D6579 /* OpusAeriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA692929B844006D6579 /* OpusAeriesUITests.swift */; };
+		B517AA6C2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA6B2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B517AA5C2929B844006D6579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B517AA422929B843006D6579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B517AA492929B843006D6579;
+			remoteInfo = OpusAeries;
+		};
+		B517AA662929B844006D6579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B517AA422929B843006D6579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B517AA492929B843006D6579;
+			remoteInfo = OpusAeries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B517AA4A2929B843006D6579 /* OpusAeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusAeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesApp.swift; sourceTree = "<group>"; };
+		B517AA4F2929B843006D6579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B517AA512929B844006D6579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B517AA532929B844006D6579 /* OpusAeries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpusAeries.entitlements; sourceTree = "<group>"; };
+		B517AA552929B844006D6579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B517AA5B2929B844006D6579 /* OpusAeriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusAeriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B517AA5F2929B844006D6579 /* OpusAeriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesTests.swift; sourceTree = "<group>"; };
+		B517AA652929B844006D6579 /* OpusAeriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusAeriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B517AA692929B844006D6579 /* OpusAeriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesUITests.swift; sourceTree = "<group>"; };
+		B517AA6B2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B517AA472929B843006D6579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B517AA582929B844006D6579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B517AA622929B844006D6579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B517AA412929B843006D6579 = {
+			isa = PBXGroup;
+			children = (
+				B517AA4C2929B843006D6579 /* OpusAeries */,
+				B517AA5E2929B844006D6579 /* OpusAeriesTests */,
+				B517AA682929B844006D6579 /* OpusAeriesUITests */,
+				B517AA4B2929B843006D6579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B517AA4B2929B843006D6579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B517AA4A2929B843006D6579 /* OpusAeries.app */,
+				B517AA5B2929B844006D6579 /* OpusAeriesTests.xctest */,
+				B517AA652929B844006D6579 /* OpusAeriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B517AA4C2929B843006D6579 /* OpusAeries */ = {
+			isa = PBXGroup;
+			children = (
+				B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */,
+				B517AA4F2929B843006D6579 /* ContentView.swift */,
+				B517AA512929B844006D6579 /* Assets.xcassets */,
+				B517AA532929B844006D6579 /* OpusAeries.entitlements */,
+				B517AA542929B844006D6579 /* Preview Content */,
+			);
+			path = OpusAeries;
+			sourceTree = "<group>";
+		};
+		B517AA542929B844006D6579 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B517AA552929B844006D6579 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B517AA5E2929B844006D6579 /* OpusAeriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B517AA5F2929B844006D6579 /* OpusAeriesTests.swift */,
+			);
+			path = OpusAeriesTests;
+			sourceTree = "<group>";
+		};
+		B517AA682929B844006D6579 /* OpusAeriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B517AA692929B844006D6579 /* OpusAeriesUITests.swift */,
+				B517AA6B2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift */,
+			);
+			path = OpusAeriesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B517AA492929B843006D6579 /* OpusAeries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B517AA6F2929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeries" */;
+			buildPhases = (
+				B517AA462929B843006D6579 /* Sources */,
+				B517AA472929B843006D6579 /* Frameworks */,
+				B517AA482929B843006D6579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpusAeries;
+			productName = OpusAeries;
+			productReference = B517AA4A2929B843006D6579 /* OpusAeries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B517AA5A2929B844006D6579 /* OpusAeriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B517AA722929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesTests" */;
+			buildPhases = (
+				B517AA572929B844006D6579 /* Sources */,
+				B517AA582929B844006D6579 /* Frameworks */,
+				B517AA592929B844006D6579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B517AA5D2929B844006D6579 /* PBXTargetDependency */,
+			);
+			name = OpusAeriesTests;
+			productName = OpusAeriesTests;
+			productReference = B517AA5B2929B844006D6579 /* OpusAeriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B517AA642929B844006D6579 /* OpusAeriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B517AA752929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesUITests" */;
+			buildPhases = (
+				B517AA612929B844006D6579 /* Sources */,
+				B517AA622929B844006D6579 /* Frameworks */,
+				B517AA632929B844006D6579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B517AA672929B844006D6579 /* PBXTargetDependency */,
+			);
+			name = OpusAeriesUITests;
+			productName = OpusAeriesUITests;
+			productReference = B517AA652929B844006D6579 /* OpusAeriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B517AA422929B843006D6579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B517AA492929B843006D6579 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B517AA5A2929B844006D6579 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B517AA492929B843006D6579;
+					};
+					B517AA642929B844006D6579 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B517AA492929B843006D6579;
+					};
+				};
+			};
+			buildConfigurationList = B517AA452929B843006D6579 /* Build configuration list for PBXProject "OpusAeries" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B517AA412929B843006D6579;
+			productRefGroup = B517AA4B2929B843006D6579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B517AA492929B843006D6579 /* OpusAeries */,
+				B517AA5A2929B844006D6579 /* OpusAeriesTests */,
+				B517AA642929B844006D6579 /* OpusAeriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B517AA482929B843006D6579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B517AA562929B844006D6579 /* Preview Assets.xcassets in Resources */,
+				B517AA522929B844006D6579 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B517AA592929B844006D6579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B517AA632929B844006D6579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B517AA462929B843006D6579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B517AA502929B843006D6579 /* ContentView.swift in Sources */,
+				B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B517AA572929B844006D6579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B517AA602929B844006D6579 /* OpusAeriesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B517AA612929B844006D6579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B517AA6C2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift in Sources */,
+				B517AA6A2929B844006D6579 /* OpusAeriesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B517AA5D2929B844006D6579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B517AA492929B843006D6579 /* OpusAeries */;
+			targetProxy = B517AA5C2929B844006D6579 /* PBXContainerItemProxy */;
+		};
+		B517AA672929B844006D6579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B517AA492929B843006D6579 /* OpusAeries */;
+			targetProxy = B517AA662929B844006D6579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B517AA6D2929B844006D6579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B517AA6E2929B844006D6579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B517AA702929B844006D6579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpusAeries/OpusAeries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpusAeries/Preview Content\"";
+				DEVELOPMENT_TEAM = RL5956CXR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B517AA712929B844006D6579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpusAeries/OpusAeries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpusAeries/Preview Content\"";
+				DEVELOPMENT_TEAM = RL5956CXR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B517AA732929B844006D6579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL5956CXR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusAeries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusAeries";
+			};
+			name = Debug;
+		};
+		B517AA742929B844006D6579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL5956CXR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusAeries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusAeries";
+			};
+			name = Release;
+		};
+		B517AA762929B844006D6579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL5956CXR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpusAeries;
+			};
+			name = Debug;
+		};
+		B517AA772929B844006D6579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL5956CXR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpusAeries;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B517AA452929B843006D6579 /* Build configuration list for PBXProject "OpusAeries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B517AA6D2929B844006D6579 /* Debug */,
+				B517AA6E2929B844006D6579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B517AA6F2929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B517AA702929B844006D6579 /* Debug */,
+				B517AA712929B844006D6579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B517AA722929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B517AA732929B844006D6579 /* Debug */,
+				B517AA742929B844006D6579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B517AA752929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B517AA762929B844006D6579 /* Debug */,
+				B517AA772929B844006D6579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B517AA422929B843006D6579 /* Project object */;
+}
