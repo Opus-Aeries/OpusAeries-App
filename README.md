@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   
-  <img alt="Opus-Aeries App Logo" src="Assets/Main-Logo-Clipped.png" width="350">
+  <img alt="Opus-Aeries App Logo" src="Assets/Main-Logo-Clipped.png" width="200">
   
 </div>
 
