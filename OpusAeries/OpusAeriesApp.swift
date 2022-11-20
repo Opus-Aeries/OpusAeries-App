@@ -2,8 +2,7 @@
 //  OpusAeriesApp.swift
 //  OpusAeries
 //
-//  Created by Ben on 11/19/22.
-//
+
 
 import SwiftUI
 

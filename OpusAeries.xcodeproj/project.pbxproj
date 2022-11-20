@@ -7,44 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42B44C752929D98A00DB5771 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B44C742929D98A00DB5771 /* KeychainManager.swift */; };
 		B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */; };
 		B517AA502929B843006D6579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4F2929B843006D6579 /* ContentView.swift */; };
 		B517AA522929B844006D6579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA512929B844006D6579 /* Assets.xcassets */; };
 		B517AA562929B844006D6579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA552929B844006D6579 /* Preview Assets.xcassets */; };
-		B517AA602929B844006D6579 /* OpusAeriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA5F2929B844006D6579 /* OpusAeriesTests.swift */; };
-		B517AA6A2929B844006D6579 /* OpusAeriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA692929B844006D6579 /* OpusAeriesUITests.swift */; };
-		B517AA6C2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA6B2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B517AA5C2929B844006D6579 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B517AA422929B843006D6579 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B517AA492929B843006D6579;
-			remoteInfo = OpusAeries;
-		};
-		B517AA662929B844006D6579 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B517AA422929B843006D6579 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B517AA492929B843006D6579;
-			remoteInfo = OpusAeries;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		42B44C6D2929D6A800DB5771 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		42B44C6E2929D6FB00DB5771 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		42B44C702929D7C500DB5771 /* Main-Logo-Clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-Logo-Clipped.png"; sourceTree = "<group>"; };
+		42B44C742929D98A00DB5771 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		B517AA4A2929B843006D6579 /* OpusAeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusAeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesApp.swift; sourceTree = "<group>"; };
 		B517AA4F2929B843006D6579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B517AA512929B844006D6579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B517AA532929B844006D6579 /* OpusAeries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpusAeries.entitlements; sourceTree = "<group>"; };
 		B517AA552929B844006D6579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B517AA5B2929B844006D6579 /* OpusAeriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusAeriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B517AA5F2929B844006D6579 /* OpusAeriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesTests.swift; sourceTree = "<group>"; };
-		B517AA652929B844006D6579 /* OpusAeriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusAeriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B517AA692929B844006D6579 /* OpusAeriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesUITests.swift; sourceTree = "<group>"; };
-		B517AA6B2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,29 +34,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B517AA582929B844006D6579 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B517AA622929B844006D6579 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42B44C6F2929D72700DB5771 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				42B44C702929D7C500DB5771 /* Main-Logo-Clipped.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		42B44C722929D97500DB5771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B517AA4F2929B843006D6579 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42B44C732929D98000DB5771 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				42B44C742929D98A00DB5771 /* KeychainManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		B517AA412929B843006D6579 = {
 			isa = PBXGroup;
 			children = (
+				42B44C6E2929D6FB00DB5771 /* LICENSE.md */,
+				42B44C6D2929D6A800DB5771 /* README.md */,
+				42B44C6F2929D72700DB5771 /* Assets */,
 				B517AA4C2929B843006D6579 /* OpusAeries */,
-				B517AA5E2929B844006D6579 /* OpusAeriesTests */,
-				B517AA682929B844006D6579 /* OpusAeriesUITests */,
 				B517AA4B2929B843006D6579 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				B517AA4A2929B843006D6579 /* OpusAeries.app */,
-				B517AA5B2929B844006D6579 /* OpusAeriesTests.xctest */,
-				B517AA652929B844006D6579 /* OpusAeriesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,10 +83,10 @@
 		B517AA4C2929B843006D6579 /* OpusAeries */ = {
 			isa = PBXGroup;
 			children = (
+				42B44C732929D98000DB5771 /* Managers */,
+				42B44C722929D97500DB5771 /* Views */,
 				B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */,
-				B517AA4F2929B843006D6579 /* ContentView.swift */,
 				B517AA512929B844006D6579 /* Assets.xcassets */,
-				B517AA532929B844006D6579 /* OpusAeries.entitlements */,
 				B517AA542929B844006D6579 /* Preview Content */,
 			);
 			path = OpusAeries;
@@ -110,23 +98,6 @@
 				B517AA552929B844006D6579 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B517AA5E2929B844006D6579 /* OpusAeriesTests */ = {
-			isa = PBXGroup;
-			children = (
-				B517AA5F2929B844006D6579 /* OpusAeriesTests.swift */,
-			);
-			path = OpusAeriesTests;
-			sourceTree = "<group>";
-		};
-		B517AA682929B844006D6579 /* OpusAeriesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B517AA692929B844006D6579 /* OpusAeriesUITests.swift */,
-				B517AA6B2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift */,
-			);
-			path = OpusAeriesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,42 +120,6 @@
 			productReference = B517AA4A2929B843006D6579 /* OpusAeries.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B517AA5A2929B844006D6579 /* OpusAeriesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B517AA722929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesTests" */;
-			buildPhases = (
-				B517AA572929B844006D6579 /* Sources */,
-				B517AA582929B844006D6579 /* Frameworks */,
-				B517AA592929B844006D6579 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B517AA5D2929B844006D6579 /* PBXTargetDependency */,
-			);
-			name = OpusAeriesTests;
-			productName = OpusAeriesTests;
-			productReference = B517AA5B2929B844006D6579 /* OpusAeriesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B517AA642929B844006D6579 /* OpusAeriesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B517AA752929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesUITests" */;
-			buildPhases = (
-				B517AA612929B844006D6579 /* Sources */,
-				B517AA622929B844006D6579 /* Frameworks */,
-				B517AA632929B844006D6579 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B517AA672929B844006D6579 /* PBXTargetDependency */,
-			);
-			name = OpusAeriesUITests;
-			productName = OpusAeriesUITests;
-			productReference = B517AA652929B844006D6579 /* OpusAeriesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +132,6 @@
 				TargetAttributes = {
 					B517AA492929B843006D6579 = {
 						CreatedOnToolsVersion = 14.1;
-					};
-					B517AA5A2929B844006D6579 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = B517AA492929B843006D6579;
-					};
-					B517AA642929B844006D6579 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = B517AA492929B843006D6579;
 					};
 				};
 			};
@@ -222,8 +149,6 @@
 			projectRoot = "";
 			targets = (
 				B517AA492929B843006D6579 /* OpusAeries */,
-				B517AA5A2929B844006D6579 /* OpusAeriesTests */,
-				B517AA642929B844006D6579 /* OpusAeriesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +163,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B517AA592929B844006D6579 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B517AA632929B844006D6579 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,41 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B517AA502929B843006D6579 /* ContentView.swift in Sources */,
+				42B44C752929D98A00DB5771 /* KeychainManager.swift in Sources */,
 				B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B517AA572929B844006D6579 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B517AA602929B844006D6579 /* OpusAeriesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B517AA612929B844006D6579 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B517AA6C2929B844006D6579 /* OpusAeriesUITestsLaunchTests.swift in Sources */,
-				B517AA6A2929B844006D6579 /* OpusAeriesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B517AA5D2929B844006D6579 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B517AA492929B843006D6579 /* OpusAeries */;
-			targetProxy = B517AA5C2929B844006D6579 /* PBXContainerItemProxy */;
-		};
-		B517AA672929B844006D6579 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B517AA492929B843006D6579 /* OpusAeries */;
-			targetProxy = B517AA662929B844006D6579 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B517AA6D2929B844006D6579 /* Debug */ = {
@@ -411,14 +293,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OpusAeries/OpusAeries.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpusAeries/Preview Content\"";
-				DEVELOPMENT_TEAM = RL5956CXR4;
+				DEVELOPMENT_TEAM = YMN3MW57X2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow Face ID to access stored credentials";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -437,10 +320,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,14 +334,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OpusAeries/OpusAeries.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpusAeries/Preview Content\"";
-				DEVELOPMENT_TEAM = RL5956CXR4;
+				DEVELOPMENT_TEAM = YMN3MW57X2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow Face ID to access stored credentials";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -475,100 +361,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B517AA732929B844006D6579 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RL5956CXR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusAeries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusAeries";
-			};
-			name = Debug;
-		};
-		B517AA742929B844006D6579 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RL5956CXR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpusAeries.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpusAeries";
-			};
-			name = Release;
-		};
-		B517AA762929B844006D6579 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RL5956CXR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OpusAeries;
-			};
-			name = Debug;
-		};
-		B517AA772929B844006D6579 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RL5956CXR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OpusAeries.OpusAeriesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OpusAeries;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -589,24 +387,6 @@
 			buildConfigurations = (
 				B517AA702929B844006D6579 /* Debug */,
 				B517AA712929B844006D6579 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B517AA722929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B517AA732929B844006D6579 /* Debug */,
-				B517AA742929B844006D6579 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B517AA752929B844006D6579 /* Build configuration list for PBXNativeTarget "OpusAeriesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B517AA762929B844006D6579 /* Debug */,
-				B517AA772929B844006D6579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
