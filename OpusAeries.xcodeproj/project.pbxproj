@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A9B07E2929E86A00B76DDE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */; };
+		42A9B07F2929E86A00B76DDE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B07D2929E84900B76DDE /* LoginView.swift */; };
+		42A9B0832929E88200B76DDE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B0822929E88000B76DDE /* CustomTextField.swift */; };
+		42A9B0842929E88200B76DDE /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B0812929E88000B76DDE /* Modifiers.swift */; };
+		42A9B0862929E8FE00B76DDE /* UserPreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B0852929E8FE00B76DDE /* UserPreferencesManager.swift */; };
+		42A9B08E292A042A00B76DDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B08D292A041F00B76DDE /* HomeView.swift */; };
+		42A9B08F292A042A00B76DDE /* GradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B089292A041F00B76DDE /* GradeView.swift */; };
+		42A9B090292A043D00B76DDE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B08A292A041F00B76DDE /* MainView.swift */; };
 		42B44C752929D98A00DB5771 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B44C742929D98A00DB5771 /* KeychainManager.swift */; };
+		42B44C782929E19700DB5771 /* AeriesKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42B44C772929E19700DB5771 /* AeriesKit */; };
+		42B44C7A2929E1AE00DB5771 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B44C792929E1AE00DB5771 /* AuthenticationManager.swift */; };
+		42B44C7D2929E1F100DB5771 /* AeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */; };
 		B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */; };
 		B517AA502929B843006D6579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4F2929B843006D6579 /* ContentView.swift */; };
 		B517AA522929B844006D6579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA512929B844006D6579 /* Assets.xcassets */; };
@@ -15,10 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		42A9B07D2929E84900B76DDE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		42A9B0812929E88000B76DDE /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		42A9B0822929E88000B76DDE /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		42A9B0852929E8FE00B76DDE /* UserPreferencesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferencesManager.swift; sourceTree = "<group>"; };
+		42A9B089292A041F00B76DDE /* GradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeView.swift; sourceTree = "<group>"; };
+		42A9B08A292A041F00B76DDE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		42A9B08D292A041F00B76DDE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		42B44C6D2929D6A800DB5771 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		42B44C6E2929D6FB00DB5771 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		42B44C702929D7C500DB5771 /* Main-Logo-Clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-Logo-Clipped.png"; sourceTree = "<group>"; };
 		42B44C742929D98A00DB5771 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		42B44C792929E1AE00DB5771 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeriesViewModel.swift; sourceTree = "<group>"; };
 		B517AA4A2929B843006D6579 /* OpusAeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusAeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesApp.swift; sourceTree = "<group>"; };
 		B517AA4F2929B843006D6579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,12 +52,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B44C782929E19700DB5771 /* AeriesKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42A9B07B2929E83E00B76DDE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */,
+				42A9B07D2929E84900B76DDE /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		42A9B0802929E87300B76DDE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				42A9B0822929E88000B76DDE /* CustomTextField.swift */,
+				42A9B0812929E88000B76DDE /* Modifiers.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		42A9B087292A03FF00B76DDE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				42A9B08B292A041F00B76DDE /* Attendance */,
+				42A9B088292A041F00B76DDE /* Grades */,
+				42A9B08C292A041F00B76DDE /* Home */,
+				42A9B08A292A041F00B76DDE /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		42A9B088292A041F00B76DDE /* Grades */ = {
+			isa = PBXGroup;
+			children = (
+				42A9B089292A041F00B76DDE /* GradeView.swift */,
+			);
+			path = Grades;
+			sourceTree = "<group>";
+		};
+		42A9B08B292A041F00B76DDE /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		42A9B08C292A041F00B76DDE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				42A9B08D292A041F00B76DDE /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		42B44C6F2929D72700DB5771 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -48,6 +122,9 @@
 		42B44C722929D97500DB5771 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				42A9B0802929E87300B76DDE /* Other */,
+				42A9B07B2929E83E00B76DDE /* Login */,
+				42A9B087292A03FF00B76DDE /* Main */,
 				B517AA4F2929B843006D6579 /* ContentView.swift */,
 			);
 			path = Views;
@@ -57,8 +134,18 @@
 			isa = PBXGroup;
 			children = (
 				42B44C742929D98A00DB5771 /* KeychainManager.swift */,
+				42B44C792929E1AE00DB5771 /* AuthenticationManager.swift */,
+				42A9B0852929E8FE00B76DDE /* UserPreferencesManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		42B44C7B2929E1D300DB5771 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		B517AA412929B843006D6579 = {
@@ -83,6 +170,7 @@
 		B517AA4C2929B843006D6579 /* OpusAeries */ = {
 			isa = PBXGroup;
 			children = (
+				42B44C7B2929E1D300DB5771 /* ViewModels */,
 				42B44C732929D98000DB5771 /* Managers */,
 				42B44C722929D97500DB5771 /* Views */,
 				B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */,
@@ -116,6 +204,9 @@
 			dependencies = (
 			);
 			name = OpusAeries;
+			packageProductDependencies = (
+				42B44C772929E19700DB5771 /* AeriesKit */,
+			);
 			productName = OpusAeries;
 			productReference = B517AA4A2929B843006D6579 /* OpusAeries.app */;
 			productType = "com.apple.product-type.application";
@@ -144,6 +235,9 @@
 				Base,
 			);
 			mainGroup = B517AA412929B843006D6579;
+			packageReferences = (
+				42B44C762929E19700DB5771 /* XCRemoteSwiftPackageReference "AeriesKit" */,
+			);
 			productRefGroup = B517AA4B2929B843006D6579 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,8 +264,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B44C7D2929E1F100DB5771 /* AeriesViewModel.swift in Sources */,
+				42A9B090292A043D00B76DDE /* MainView.swift in Sources */,
+				42A9B07F2929E86A00B76DDE /* LoginView.swift in Sources */,
 				B517AA502929B843006D6579 /* ContentView.swift in Sources */,
+				42B44C7A2929E1AE00DB5771 /* AuthenticationManager.swift in Sources */,
+				42A9B0832929E88200B76DDE /* CustomTextField.swift in Sources */,
+				42A9B08E292A042A00B76DDE /* HomeView.swift in Sources */,
 				42B44C752929D98A00DB5771 /* KeychainManager.swift in Sources */,
+				42A9B07E2929E86A00B76DDE /* ForgotPasswordView.swift in Sources */,
+				42A9B08F292A042A00B76DDE /* GradeView.swift in Sources */,
+				42A9B0862929E8FE00B76DDE /* UserPreferencesManager.swift in Sources */,
+				42A9B0842929E88200B76DDE /* Modifiers.swift in Sources */,
 				B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +496,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42B44C762929E19700DB5771 /* XCRemoteSwiftPackageReference "AeriesKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Opus-Aeries/AeriesKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42B44C772929E19700DB5771 /* AeriesKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42B44C762929E19700DB5771 /* XCRemoteSwiftPackageReference "AeriesKit" */;
+			productName = AeriesKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B517AA422929B843006D6579 /* Project object */;
 }

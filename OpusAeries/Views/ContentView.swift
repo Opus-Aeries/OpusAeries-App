@@ -6,14 +6,16 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @EnvironmentObject var aeries: AeriesViewModel
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        switch aeries.currentlyAuthenticated {
+        case true:
+            MainView()
+        case false:
+            LoginView()
         }
-        .padding()
     }
 }
 

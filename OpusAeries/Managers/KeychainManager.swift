@@ -13,21 +13,22 @@ class KeychainManager {
         case unknown(OSStatus)
     }
 
-    func saveUserPassword(email: String, password: String) {
+    func saveUserPassword(email: String, password: String) throws {
         do {
-            try KeychainManager.saveData(
+            try saveData(
                 service: "aeries.net",
                 account: email,
                 password: password.data(using: .utf8) ?? Data()
             )
         } catch {
             print(error)
+            throw error
         }
     }
 
     func readUserPassword(email: String) -> String? {
         do {
-            guard let data = try KeychainManager.readData(
+            guard let data = try readData(
                 service: "aeries.net",
                 account: email
             ) else {
@@ -49,7 +50,7 @@ class KeychainManager {
     ///   - service: The specific service to save data for
     ///   - account: The account/username/email to save data for
     ///   - password: The password to save
-    static func saveData(
+    private func saveData(
         service: String,
         account: String,
         password: Data
@@ -82,7 +83,7 @@ class KeychainManager {
     ///   - service: The service of the requested item
     ///   - account: The account of the requested item
     /// - Returns: Data representing password
-    static func readData(
+    private func readData(
         service: String,
         account: String
     ) throws -> Data? {
@@ -102,8 +103,6 @@ class KeychainManager {
         guard status == errSecSuccess else {
             throw KeychainError.unknown(status)
         }
-
-        print("Read status: \(status)")
 
         return result as? Data
     }
