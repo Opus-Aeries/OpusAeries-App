@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   
-  <img alt="Opus-Aeries App Logo" src="Assets/Main-Logo-Clipped.png" width="200">
+  <img alt="Opus-Aeries App Logo" src="https://cdn.discordapp.com/attachments/602661688222810160/1044299987279937596/Main-Logo-Clipped.png" width="200">
   
 </div>
 
