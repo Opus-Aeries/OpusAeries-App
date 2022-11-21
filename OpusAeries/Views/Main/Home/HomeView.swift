@@ -5,9 +5,12 @@
 // Created by LeoSM_07 on 11/19/22.
 //
 
+import AeriesKit
 import SwiftUI
+import RegexBuilder
 
 struct HomeView: View {
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -15,23 +18,25 @@ struct HomeView: View {
                     .ignoresSafeArea()
 
                 ScrollView {
-
-                    VStack(spacing: 15) {
-                        HStack {
-                            Image(systemName: "building.2")
-                                .frame(width: 30)
-                            Text("Hello World")
-                                .frame(maxWidth: .infinity, alignment: .leading)
+                    VStack {
+                        VStack(spacing: 15) {
+                            HStack {
+                                Image(systemName: "building.2")
+                                    .frame(width: 30)
+                                Text("Hello World")
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                            }
                         }
+                        .elementStyle()
+
                     }
-                    .elementStyle()
+                    .padding(.horizontal)
                 }
-                .padding(.horizontal)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
-                        Button{} label: { Label("Settings", systemImage: "cog") }
+                        Button{} label: { Label("Settings", systemImage: "gear") }
                     } label: {
                         Image(systemName: "person.fill")
                     }

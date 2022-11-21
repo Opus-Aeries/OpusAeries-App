@@ -19,18 +19,47 @@ struct GradeView: View {
                     .ignoresSafeArea()
 
                 ScrollView {
-                    ForEach(aeries.coursesSummary, id: \.self) { item in
-                        GradeCard(course: item)
-                            .elementStyle()
+                    VStack() {
+                        Text("Active Classes")
+                        ForEach(aeries.coursesSummary.filter{$0.gradebookLink != nil}, id: \.self) { item in
+                            NavigationLink(value: item) {
+                                GradeCard(course: item)
+                                    .elementStyle()
+                            }
+                            .buttonStyle(.plain)
+
+                        }
+
+                        Spacer().frame(height: 20)
+
+                        Text("Inactive Classes")
+                        ForEach(aeries.coursesSummary.filter{$0.gradebookLink == nil}, id: \.self) { item in
+                            GradeCard(course: item)
+                                .elementStyle()
+                        }
+
+
                     }
-                    
-                    if aeries.coursesSummary == [] {
-                        Text("No Courses")
-                    }
+                    .padding(.horizontal)
                 }
-                .padding(.horizontal)
+
+                if aeries.coursesSummary == [] {
+                    Text("No Courses")
+                }
             }
             .navigationTitle("Grades")
+            .navigationDestination(for: AeriesClassSummary.self) { summary in
+                GradebookDetailView(courseSummary: summary)
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Menu {
+                        Button{} label: { Label("Settings", systemImage: "gear") }
+                    } label: {
+                        Image(systemName: "person.fill")
+                    }
+                }
+            }
         }
     }
 }

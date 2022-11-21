@@ -19,6 +19,8 @@ class AeriesViewModel: ObservableObject {
 
     // Data Items
     @Published var coursesSummary: [AeriesClassSummary] = []
+    @Published var recentData: [AeriesRecentData] = []
+    
 
     /// Determines if there is existing data to use with biometric unlock
     var canUseBiometrics: Bool {
@@ -68,7 +70,7 @@ class AeriesViewModel: ObservableObject {
     private func checkLoginWithAeries(email: String, password: String) {
         aeries.login(email: email, password: password) { result in
             switch result {
-            case .success():
+            case .success(let recentData):
                 DispatchQueue.main.async {
                     self.signInLoading = false
                     self.currentlyAuthenticated = true
@@ -78,6 +80,7 @@ class AeriesViewModel: ObservableObject {
                     } catch {
                         print(error)
                     }
+                    self.recentData = recentData
                 }
             case .failure(let error):
                 DispatchQueue.main.async {
@@ -89,8 +92,10 @@ class AeriesViewModel: ObservableObject {
     }
 
     private func handleFailure(_ error: Error) {
-        self.errorMessage = error.localizedDescription
-        self.showError = true
-        print(error.localizedDescription)
+        DispatchQueue.main.async {
+            self.errorMessage = error.localizedDescription
+            self.showError = true
+            print(error.localizedDescription)
+        }
     }
 }

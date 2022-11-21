@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		428BC3D8292B07DB00641648 /* GradebookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BC3D7292B07DB00641648 /* GradebookDetailView.swift */; };
 		42A9B07E2929E86A00B76DDE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */; };
 		42A9B07F2929E86A00B76DDE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B07D2929E84900B76DDE /* LoginView.swift */; };
 		42A9B0832929E88200B76DDE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B0822929E88000B76DDE /* CustomTextField.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		428BC3D7292B07DB00641648 /* GradebookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradebookDetailView.swift; sourceTree = "<group>"; };
 		42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		42A9B07D2929E84900B76DDE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		42A9B0812929E88000B76DDE /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				42A9B089292A041F00B76DDE /* GradeView.swift */,
+				428BC3D7292B07DB00641648 /* GradebookDetailView.swift */,
 			);
 			path = Grades;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				B517AA502929B843006D6579 /* ContentView.swift in Sources */,
 				42B44C7A2929E1AE00DB5771 /* AuthenticationManager.swift in Sources */,
 				42A9B0832929E88200B76DDE /* CustomTextField.swift in Sources */,
+				428BC3D8292B07DB00641648 /* GradebookDetailView.swift in Sources */,
 				42A9B08E292A042A00B76DDE /* HomeView.swift in Sources */,
 				42B44C752929D98A00DB5771 /* KeychainManager.swift in Sources */,
 				42A9B07E2929E86A00B76DDE /* ForgotPasswordView.swift in Sources */,
