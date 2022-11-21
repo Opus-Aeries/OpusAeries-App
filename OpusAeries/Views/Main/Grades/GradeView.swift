@@ -82,7 +82,7 @@ struct GradeCard: View {
                 VStack(alignment: .leading) {
                     Text(course.courseName)
                         .font(.title2.bold())
-                        .fontDesign(.rounded)
+//                        .fontDesign(.rounded)e
                         .foregroundColor(Color("AccentBlue"))
                     Text(course.teacherName + "  -  " + course.roomNumber)
                     Spacer()
