@@ -19,9 +19,9 @@ struct GradeView: View {
                     .ignoresSafeArea()
 
                 ScrollView {
-                    VStack() {
-                        Text("Active Classes")
-                        ForEach(aeries.coursesSummary.filter{$0.gradebookLink != nil}, id: \.self) { item in
+                    VStack(spacing: 15) {
+                        sectionHeader("Active Classes")
+                        ForEach(aeries.coursesSummary.filter{$0.gradebookLink != nil && $0.currentMark != ""}, id: \.self) { item in
                             NavigationLink(value: item) {
                                 GradeCard(course: item)
                                     .elementStyle()
@@ -32,8 +32,9 @@ struct GradeView: View {
 
                         Spacer().frame(height: 20)
 
-                        Text("Inactive Classes")
-                        ForEach(aeries.coursesSummary.filter{$0.gradebookLink == nil}, id: \.self) { item in
+                        sectionHeader("Inactive Classes")
+
+                        ForEach(aeries.coursesSummary.filter{$0.gradebookLink == nil || $0.currentMark == ""}, id: \.self) { item in
                             GradeCard(course: item)
                                 .elementStyle()
                         }
@@ -61,6 +62,13 @@ struct GradeView: View {
                 }
             }
         }
+    }
+
+    @ViewBuilder func sectionHeader(_ text: String) -> some View {
+        Text(text)
+            .font(.headline)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.bottom, -10)
     }
 }
 

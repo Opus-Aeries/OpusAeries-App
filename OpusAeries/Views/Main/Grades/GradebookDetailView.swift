@@ -9,7 +9,9 @@ import AeriesKit
 import SwiftUI
 
 struct GradebookDetailView: View {
+    @Environment(\.colorScheme) var colorScheme
     @EnvironmentObject var aeries: AeriesViewModel
+
     let courseSummary: AeriesClassSummary
 
     @State var gradebook: [AeriesGradeBookEntry] = []
@@ -23,21 +25,45 @@ struct GradebookDetailView: View {
                 VStack {
                     VStack(spacing: 15) {
                         HStack {
-                            Image(systemName: "building.2")
-                                .frame(width: 30)
-                            Text("Hello World")
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                        }
-                    }
-                    .elementStyle()
+                            Spacer()
+                            VStack {
+                                Text("Total Grade")
+                                    .font(.headline)
+                                Spacer()
+                                Text(courseSummary.percent)
 
-                    VStack(alignment: .leading, spacing: 15) {
-                        ForEach(gradebook, id: \.self) { entry in
-                            Text(entry.description)
-                            Divider()
+                            }
+                            Spacer()
+                            Spacer()
+                            Spacer()
+                            Text(courseSummary.currentMark)
+                                .font(.largeTitle)
+                                .bold()
+                            Spacer()
                         }
                     }
-                    .elementStyle()
+                    .foregroundColor(.white)
+                    .padding()
+                    .background {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10)
+                                .fill(Color.accentColor.gradient)
+                            RoundedRectangle(cornerRadius: 10)
+                                .strokeBorder(.gray.opacity(1), lineWidth: 1)
+                        }
+
+                    }
+                    .shadow(color: .gray.opacity(colorScheme == .light ? 0.1 : 0), radius: 15)
+
+                    if gradebook != [] {
+                        VStack(alignment: .leading, spacing: 15) {
+                            ForEach(gradebook, id: \.self) { entry in
+                                Text(entry.description)
+                                Divider()
+                            }
+                        }
+                        .elementStyle()
+                    }
 
                 }
                 .padding(.horizontal)
@@ -49,7 +75,7 @@ struct GradebookDetailView: View {
                     Text("Loading")
                 }
                 .padding(20)
-                .background(.regularMaterial)
+                .background(Color(uiColor: .systemBackground))
                 .cornerRadius(10)
             }
         }
