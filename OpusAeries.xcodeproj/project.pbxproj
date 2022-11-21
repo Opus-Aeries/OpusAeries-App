@@ -20,6 +20,9 @@
 		42B44C782929E19700DB5771 /* AeriesKit in Frameworks */ = {isa = PBXBuildFile; productRef = 42B44C772929E19700DB5771 /* AeriesKit */; };
 		42B44C7A2929E1AE00DB5771 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B44C792929E1AE00DB5771 /* AuthenticationManager.swift */; };
 		42B44C7D2929E1F100DB5771 /* AeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */; };
+		42BCD929292B528600A257D1 /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = 42BCD928292B528600A257D1 /* Popovers */; };
+		42BCD92C292B530800A257D1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BCD92B292B530800A257D1 /* OnboardingView.swift */; };
+		42BCD92E292B571C00A257D1 /* Main-Logo-Clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BCD92D292B571C00A257D1 /* Main-Logo-Clipped.png */; };
 		B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */; };
 		B517AA502929B843006D6579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4F2929B843006D6579 /* ContentView.swift */; };
 		B517AA522929B844006D6579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA512929B844006D6579 /* Assets.xcassets */; };
@@ -38,10 +41,11 @@
 		42A9B08D292A041F00B76DDE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		42B44C6D2929D6A800DB5771 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		42B44C6E2929D6FB00DB5771 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		42B44C702929D7C500DB5771 /* Main-Logo-Clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-Logo-Clipped.png"; sourceTree = "<group>"; };
 		42B44C742929D98A00DB5771 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		42B44C792929E1AE00DB5771 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeriesViewModel.swift; sourceTree = "<group>"; };
+		42BCD92B292B530800A257D1 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		42BCD92D292B571C00A257D1 /* Main-Logo-Clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Main-Logo-Clipped.png"; path = "../../OpusAeries-Assets/App/Main-Logo-Clipped.png"; sourceTree = "<group>"; };
 		B517AA4A2929B843006D6579 /* OpusAeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusAeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesApp.swift; sourceTree = "<group>"; };
 		B517AA4F2929B843006D6579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BCD929292B528600A257D1 /* Popovers in Frameworks */,
 				42B44C782929E19700DB5771 /* AeriesKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +69,7 @@
 		42A9B07B2929E83E00B76DDE /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				42BCD92A292B52DD00A257D1 /* Onboarding */,
 				42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */,
 				42A9B07D2929E84900B76DDE /* LoginView.swift */,
 			);
@@ -117,7 +123,7 @@
 		42B44C6F2929D72700DB5771 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				42B44C702929D7C500DB5771 /* Main-Logo-Clipped.png */,
+				42BCD92D292B571C00A257D1 /* Main-Logo-Clipped.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -149,6 +155,14 @@
 				42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		42BCD92A292B52DD00A257D1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				42BCD92B292B530800A257D1 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		B517AA412929B843006D6579 = {
@@ -209,6 +223,7 @@
 			name = OpusAeries;
 			packageProductDependencies = (
 				42B44C772929E19700DB5771 /* AeriesKit */,
+				42BCD928292B528600A257D1 /* Popovers */,
 			);
 			productName = OpusAeries;
 			productReference = B517AA4A2929B843006D6579 /* OpusAeries.app */;
@@ -240,6 +255,7 @@
 			mainGroup = B517AA412929B843006D6579;
 			packageReferences = (
 				42B44C762929E19700DB5771 /* XCRemoteSwiftPackageReference "AeriesKit" */,
+				42BCD927292B528600A257D1 /* XCRemoteSwiftPackageReference "Popovers" */,
 			);
 			productRefGroup = B517AA4B2929B843006D6579 /* Products */;
 			projectDirPath = "";
@@ -256,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B517AA562929B844006D6579 /* Preview Assets.xcassets in Resources */,
+				42BCD92E292B571C00A257D1 /* Main-Logo-Clipped.png in Resources */,
 				B517AA522929B844006D6579 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +292,7 @@
 				42A9B0832929E88200B76DDE /* CustomTextField.swift in Sources */,
 				428BC3D8292B07DB00641648 /* GradebookDetailView.swift in Sources */,
 				42A9B08E292A042A00B76DDE /* HomeView.swift in Sources */,
+				42BCD92C292B530800A257D1 /* OnboardingView.swift in Sources */,
 				42B44C752929D98A00DB5771 /* KeychainManager.swift in Sources */,
 				42A9B07E2929E86A00B76DDE /* ForgotPasswordView.swift in Sources */,
 				42A9B08F292A042A00B76DDE /* GradeView.swift in Sources */,
@@ -510,6 +528,14 @@
 				kind = branch;
 			};
 		};
+		42BCD927292B528600A257D1 /* XCRemoteSwiftPackageReference "Popovers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/Popovers";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -517,6 +543,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 42B44C762929E19700DB5771 /* XCRemoteSwiftPackageReference "AeriesKit" */;
 			productName = AeriesKit;
+		};
+		42BCD928292B528600A257D1 /* Popovers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42BCD927292B528600A257D1 /* XCRemoteSwiftPackageReference "Popovers" */;
+			productName = Popovers;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

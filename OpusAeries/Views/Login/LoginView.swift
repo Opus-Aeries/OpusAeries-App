@@ -5,6 +5,7 @@
 // Created by LeoSM_07 on 11/19/22.
 //
 
+import Popovers
 import SwiftUI
 
 struct LoginView: View {
@@ -15,6 +16,8 @@ struct LoginView: View {
     @State var showResetPassword = false
     @State var emailText: String = ""
     @State var passwordText: String = ""
+
+    @State var presentOnboardingPopover = false
 
     var body: some View {
         NavigationStack {
@@ -94,6 +97,7 @@ struct LoginView: View {
                     Button("Forgot Password") {
                         // Functionality not implemented
                         // showResetPassword = true
+                        presentOnboardingPopover = true
                     }
                     .font(.subheadline)
                     .padding(.trailing, 5)
@@ -133,13 +137,37 @@ struct LoginView: View {
                 Text(aeries.errorMessage)
             })
             .onAppear {
-                if settings.automaticallyUseFaceId && aeries.canUseBiometrics {
-                    submit()
-                }
+                #warning("Add Back When Done")
+//                if settings.automaticallyUseFaceId && aeries.canUseBiometrics {
+//                    submit()
+//                }
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar(.visible)
+            .popover(
+                present: $presentOnboardingPopover,
+                attributes: {
+                    $0.position = .relative(
+                        popoverAnchors: [
+                            .center,
+                        ]
+                    )
 
+                    let animation = Animation.spring(
+                        response: 0.6,
+                        dampingFraction: 0.8,
+                        blendDuration: 1
+                    )
+                    let transition = AnyTransition.move(edge: .bottom).combined(with: .opacity)
+
+                    $0.presentation.animation = animation
+                    $0.presentation.transition = transition
+                    $0.dismissal.mode = []
+                }
+            ) {
+                OnboardingView(isOpen: $presentOnboardingPopover)
+                    .frame(maxWidth: 325, maxHeight: 400)
+            }
         }
     }
 

@@ -79,7 +79,8 @@ struct GradebookDetailView: View {
                 .cornerRadius(10)
             }
         }
-        .navigationTitle("Home")
+        .navigationTitle(courseSummary.courseName)
+        .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             if let link = courseSummary.gradebookLink {
                 aeries.aeries.getGradebookDetails(
