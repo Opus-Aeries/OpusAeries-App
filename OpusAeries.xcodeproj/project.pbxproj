@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		428BC3D8292B07DB00641648 /* GradebookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BC3D7292B07DB00641648 /* GradebookDetailView.swift */; };
+		428CFA90292C6D5300CB6873 /* Main-Logo-Clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 428CFA8F292C6D5300CB6873 /* Main-Logo-Clipped.png */; };
 		42A9B07E2929E86A00B76DDE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */; };
 		42A9B07F2929E86A00B76DDE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B07D2929E84900B76DDE /* LoginView.swift */; };
 		42A9B0832929E88200B76DDE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B0822929E88000B76DDE /* CustomTextField.swift */; };
@@ -30,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		428BC3D7292B07DB00641648 /* GradebookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradebookDetailView.swift; sourceTree = "<group>"; };
-		428CFA8E292C6CEB00CB6873 /* Main-Logo-Clipped.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Main-Logo-Clipped.psd"; sourceTree = "<group>"; };
+		428CFA8F292C6D5300CB6873 /* Main-Logo-Clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-Logo-Clipped.png"; sourceTree = "<group>"; };
 		42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		42A9B07D2929E84900B76DDE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		42A9B0812929E88000B76DDE /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
@@ -122,7 +123,7 @@
 		42B44C6F2929D72700DB5771 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				428CFA8E292C6CEB00CB6873 /* Main-Logo-Clipped.psd */,
+				428CFA8F292C6D5300CB6873 /* Main-Logo-Clipped.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -271,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B517AA562929B844006D6579 /* Preview Assets.xcassets in Resources */,
+				428CFA90292C6D5300CB6873 /* Main-Logo-Clipped.png in Resources */,
 				B517AA522929B844006D6579 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
