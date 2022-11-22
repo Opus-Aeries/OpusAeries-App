@@ -88,7 +88,6 @@
 		42A9B087292A03FF00B76DDE /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				42A9B08B292A041F00B76DDE /* Attendance */,
 				42A9B088292A041F00B76DDE /* Grades */,
 				42A9B08C292A041F00B76DDE /* Home */,
 				42A9B08A292A041F00B76DDE /* MainView.swift */,
@@ -103,13 +102,6 @@
 				428BC3D7292B07DB00641648 /* GradebookDetailView.swift */,
 			);
 			path = Grades;
-			sourceTree = "<group>";
-		};
-		42A9B08B292A041F00B76DDE /* Attendance */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Attendance;
 			sourceTree = "<group>";
 		};
 		42A9B08C292A041F00B76DDE /* Home */ = {

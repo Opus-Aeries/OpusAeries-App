@@ -138,9 +138,14 @@ struct LoginView: View {
             })
             .onAppear {
                 #warning("Add Back When Done")
-//                if settings.automaticallyUseFaceId && aeries.canUseBiometrics {
-//                    submit()
-//                }
+                if settings.automaticallyUseFaceId && aeries.canUseBiometrics {
+                    submit()
+                }
+                
+                if settings.displayPop {
+                    presentOnboardingPopover = true
+                    settings.displayPop = false
+                }
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar(.visible)
