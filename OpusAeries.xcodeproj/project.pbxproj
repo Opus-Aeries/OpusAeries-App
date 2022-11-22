@@ -22,7 +22,6 @@
 		42B44C7D2929E1F100DB5771 /* AeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */; };
 		42BCD929292B528600A257D1 /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = 42BCD928292B528600A257D1 /* Popovers */; };
 		42BCD92C292B530800A257D1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BCD92B292B530800A257D1 /* OnboardingView.swift */; };
-		42BCD92E292B571C00A257D1 /* Main-Logo-Clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BCD92D292B571C00A257D1 /* Main-Logo-Clipped.png */; };
 		B517AA4E2929B843006D6579 /* OpusAeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */; };
 		B517AA502929B843006D6579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4F2929B843006D6579 /* ContentView.swift */; };
 		B517AA522929B844006D6579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA512929B844006D6579 /* Assets.xcassets */; };
@@ -31,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		428BC3D7292B07DB00641648 /* GradebookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradebookDetailView.swift; sourceTree = "<group>"; };
+		428CFA8E292C6CEB00CB6873 /* Main-Logo-Clipped.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Main-Logo-Clipped.psd"; sourceTree = "<group>"; };
 		42A9B07C2929E84900B76DDE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		42A9B07D2929E84900B76DDE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		42A9B0812929E88000B76DDE /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
@@ -45,7 +45,6 @@
 		42B44C792929E1AE00DB5771 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		42B44C7C2929E1F100DB5771 /* AeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeriesViewModel.swift; sourceTree = "<group>"; };
 		42BCD92B292B530800A257D1 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		42BCD92D292B571C00A257D1 /* Main-Logo-Clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Main-Logo-Clipped.png"; path = "../../OpusAeries-Assets/App/Main-Logo-Clipped.png"; sourceTree = "<group>"; };
 		B517AA4A2929B843006D6579 /* OpusAeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusAeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B517AA4D2929B843006D6579 /* OpusAeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAeriesApp.swift; sourceTree = "<group>"; };
 		B517AA4F2929B843006D6579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,7 +122,7 @@
 		42B44C6F2929D72700DB5771 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				42BCD92D292B571C00A257D1 /* Main-Logo-Clipped.png */,
+				428CFA8E292C6CEB00CB6873 /* Main-Logo-Clipped.psd */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -272,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B517AA562929B844006D6579 /* Preview Assets.xcassets in Resources */,
-				42BCD92E292B571C00A257D1 /* Main-Logo-Clipped.png in Resources */,
 				B517AA522929B844006D6579 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
