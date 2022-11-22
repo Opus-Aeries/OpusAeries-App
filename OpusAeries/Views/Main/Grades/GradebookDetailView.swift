@@ -85,7 +85,8 @@ struct GradebookDetailView: View {
             if let link = courseSummary.gradebookLink {
                 aeries.aeries.getGradebookDetails(
                     url: "\(aeries.aeries.baseUrl)Student/\(link)",
-                    extraPrint: true
+                    extraPrint: true,
+                    useNewMethod: false
                 ) { result in
                     switch result {
                     case .success(let item):

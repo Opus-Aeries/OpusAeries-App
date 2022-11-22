@@ -137,7 +137,6 @@ struct LoginView: View {
                 Text(aeries.errorMessage)
             })
             .onAppear {
-                #warning("Add Back When Done")
                 if settings.automaticallyUseFaceId && aeries.canUseBiometrics {
                     submit()
                 }

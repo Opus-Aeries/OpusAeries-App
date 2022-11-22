@@ -32,16 +32,20 @@ struct GradeView: View {
 
                         Spacer().frame(height: 20)
 
-                        sectionHeader("Inactive Classes")
-
-                        ForEach(aeries.coursesSummary.filter{$0.gradebookLink == nil || $0.currentMark == ""}, id: \.self) { item in
-                            GradeCard(course: item)
-                                .elementStyle()
-                        }
-
+                        if let inactiveClasses = aeries.coursesSummary.filter{$0.gradebookLink == nil || $0.currentMark == ""} {
+                            if inactiveClasses != [] {
+                                sectionHeader("Inactive Classes")
+                            }
+                            ForEach(inactiveClasses, id: \.self) { item in
+                                GradeCard(course: item)
+                                    .elementStyle()
+                            }
+                        }   
 
                     }
                     .padding(.horizontal)
+
+                    Spacer().frame(height: 20)
                 }
 
                 if aeries.coursesSummary == [] {
@@ -82,7 +86,7 @@ struct GradeCard: View {
                 VStack(alignment: .leading) {
                     Text(course.courseName)
                         .font(.title2.bold())
-//                        .fontDesign(.rounded)e
+//                        .fontDesign(.rounded)
                         .foregroundColor(Color("AccentBlue"))
                     Text(course.teacherName + "  -  " + course.roomNumber)
                     Spacer()
