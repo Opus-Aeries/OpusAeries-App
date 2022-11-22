@@ -27,6 +27,7 @@
 		B517AA502929B843006D6579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517AA4F2929B843006D6579 /* ContentView.swift */; };
 		B517AA522929B844006D6579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA512929B844006D6579 /* Assets.xcassets */; };
 		B517AA562929B844006D6579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B517AA552929B844006D6579 /* Preview Assets.xcassets */; };
+		B57D19D3292C91D300E303A3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D19D2292C91D300E303A3 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		B517AA4F2929B843006D6579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B517AA512929B844006D6579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B517AA552929B844006D6579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B57D19D2292C91D300E303A3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				42A9B0822929E88000B76DDE /* CustomTextField.swift */,
 				42A9B0812929E88000B76DDE /* Modifiers.swift */,
+				B57D19D2292C91D300E303A3 /* Settings.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				42A9B08E292A042A00B76DDE /* HomeView.swift in Sources */,
 				42BCD92C292B530800A257D1 /* OnboardingView.swift in Sources */,
 				42B44C752929D98A00DB5771 /* KeychainManager.swift in Sources */,
+				B57D19D3292C91D300E303A3 /* Settings.swift in Sources */,
 				42A9B07E2929E86A00B76DDE /* ForgotPasswordView.swift in Sources */,
 				42A9B08F292A042A00B76DDE /* GradeView.swift in Sources */,
 				42A9B0862929E8FE00B76DDE /* UserPreferencesManager.swift in Sources */,

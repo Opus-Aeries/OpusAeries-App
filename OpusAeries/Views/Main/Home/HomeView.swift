@@ -11,6 +11,8 @@ import RegexBuilder
 
 struct HomeView: View {
     
+    @State var showSettings = false
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -21,9 +23,9 @@ struct HomeView: View {
                     VStack {
                         VStack(spacing: 15) {
                             HStack {
-                                Image(systemName: "building.2")
+                                Image(systemName: "paintpalette.fill")
                                     .frame(width: 30)
-                                Text("Hello World")
+                                Text("Color Picker")
                                     .frame(maxWidth: .infinity, alignment: .leading)
                             }
                         }
@@ -33,10 +35,16 @@ struct HomeView: View {
                     .padding(.horizontal)
                 }
             }
+            .sheet(isPresented: $showSettings, content: {
+                SettingsView(showSettings: $showSettings)
+                //Text("settings view")
+            })
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
-                        Button{} label: { Label("Settings", systemImage: "gear") }
+                        Button{
+                            showSettings = true
+                        } label: { Label("Settings", systemImage: "gear") }
                     } label: {
                         Image(systemName: "person.fill")
                     }
